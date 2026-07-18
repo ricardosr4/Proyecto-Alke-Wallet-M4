@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoAlkeWallet">
         <activity
-            android:name=".LoginSingup"
+            android:name=".Login"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -23,6 +23,10 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LoginSingup"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
