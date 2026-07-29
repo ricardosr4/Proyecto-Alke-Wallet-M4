@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="diagonal_light">#8CC7F0</color>
+    <color name="diagonal_dark">#5DB2EE</color>
+    <color name="action_green">#67D449</color>
+    <color name="action_blue">#5DB2EE</color>
+    <color name="badge_yellow">#FFC629</color>
 </resources>

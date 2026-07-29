@@ -64,7 +64,7 @@
     <!-- Botón crear cuenta -->
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/btn"
+        android:id="@+id/btn_action_signup"
         android:layout_width="match_parent"
         android:layout_height="49dp"
         android:layout_marginHorizontal="30dp"
@@ -74,7 +74,7 @@
         app:cardElevation="0dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/tvLogin">
+        app:layout_constraintBottom_toTopOf="@id/tv_action_login">
 
         <TextView
             android:layout_width="wrap_content"
@@ -88,20 +88,21 @@
     </com.google.android.material.card.MaterialCardView>
 
     <TextView
-        android:id="@+id/tvLogin"
+        android:id="@+id/tv_action_login"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="50dp"
         android:fontFamily="@font/jua"
         android:gravity="center"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
         android:paddingBottom="20dp"
-        android:text="¿Ya tiene cuenta?"
+        android:text="¿Ya tienes cuenta?"
         android:textColor="#2995E8"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
