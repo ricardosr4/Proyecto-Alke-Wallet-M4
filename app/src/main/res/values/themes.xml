@@ -1,9 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.ProyectoAlkeWallet" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.ProyectoAlkeWallet" parent="Base.Theme.ProyectoAlkeWallet" />
+
+    <style name="Theme.ProyectoAlkeWallet.Splash" parent="Theme.ProyectoAlkeWallet">
+        <item name="android:windowBackground">#63B8FC</item>
+        <item name="android:statusBarColor">#63B8FC</item>
+        <item name="android:navigationBarColor">#63B8FC</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
 </resources>

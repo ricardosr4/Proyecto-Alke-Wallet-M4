@@ -12,8 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoAlkeWallet">
         <activity
-            android:name=".Login"
+            android:name=".SplashActivity"
             android:exported="true"
+            android:theme="@style/Theme.ProyectoAlkeWallet.Splash"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,11 +23,23 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".LoginSingup"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
             android:name=".MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".LoginSingup"
+            android:name=".Singup"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Home"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
