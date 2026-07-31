@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
         android:fontFamily="@font/jua"
-        android:text="Alke Wallet"
+        android:text="@string/alke_wallet"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

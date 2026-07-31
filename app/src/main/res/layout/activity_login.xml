@@ -8,7 +8,6 @@
     android:background="@drawable/backgraund_login_register"
     tools:context=".Login">
 
-    <!-- Título Principal -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
@@ -16,14 +15,14 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="90dp"
         android:fontFamily="@font/jua"
-        android:text="Logea y empieza a\ntranferir!"
+        android:text="@string/logea_y_empieza_a_transferir"
         android:textColor="#424242"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Campo Email: Label -->
+
     <TextView
         android:id="@+id/tvLabelEmail"
         android:layout_width="wrap_content"
@@ -31,13 +30,12 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="130dp"
         android:fontFamily="@font/jua"
-        android:text="Email"
+        android:text="@string/email"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
 
-    <!-- Campo Email: Input -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilEmail"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -50,9 +48,9 @@
         app:boxCornerRadiusBottomStart="12dp"
         app:boxCornerRadiusTopEnd="12dp"
         app:boxCornerRadiusTopStart="12dp"
+        app:boxStrokeColor="#E0E0E0"
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="1.5dp"
-        app:boxStrokeColor="#E0E0E0"
         app:hintEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
-            android:hint="Ingresar tu email"
+            android:hint="@string/ingresar_tu_email"
             android:inputType="textEmailAddress"
             android:paddingVertical="14dp"
             android:textColorHint="#B0B0B0"
@@ -71,7 +69,6 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 
-    <!-- Campo Contraseña: Label -->
     <TextView
         android:id="@+id/tvLabelPassword"
         android:layout_width="wrap_content"
@@ -79,13 +76,13 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/jua"
-        android:text="Contraseña"
+        android:text="@string/contraseña"
         android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tilEmail" />
 
-    <!-- Campo Contraseña: Input -->
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilPassword"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -113,14 +110,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
-            android:hint="Ingresar tu contraseña"
+            android:hint="@string/ingresar_tu_contraseña"
             android:inputType="textPassword"
             android:paddingVertical="14dp"
             android:textColorHint="#B0B0B0"
             android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Olvidaste tu contraseña -->
     <TextView
         android:id="@+id/tvForgotPassword"
         android:layout_width="wrap_content"
@@ -128,22 +124,21 @@
         android:layout_marginTop="12dp"
         android:layout_marginEnd="30dp"
         android:fontFamily="@font/jua"
-        android:text="Olvidaste tu contraseña?"
-        android:textColor="#3B9AF8"
+        android:text="@string/olvidaste_tu_contraseña"
+        android:textColor="#1A87DD"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tilPassword" />
 
-    <!-- Botón Login -->
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_marginHorizontal="30dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#64B5F6"
-        android:text="Login"
+        android:backgroundTint="#63B8FC"
         android:fontFamily="@font/jua"
+        android:text="@string/login"
         android:textAllCaps="false"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -152,7 +147,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Botón Crear una nueva cuenta (al final) -->
     <TextView
         android:id="@+id/tvRegister"
         android:layout_width="wrap_content"
@@ -161,8 +155,8 @@
         android:layout_marginBottom="52dp"
         android:fontFamily="@font/jua"
         android:gravity="center"
-        android:text="Crear una nueva cuenta"
-        android:textColor="#3B9AF8"
+        android:text="@string/crear_una_nueva_cuenta"
+        android:textColor="#1A87DD"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

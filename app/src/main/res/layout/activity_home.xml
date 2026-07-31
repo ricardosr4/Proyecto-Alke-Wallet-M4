@@ -36,7 +36,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="48dp"
         android:fontFamily="@font/jua"
-        android:text="Inicio"
+        android:text="@string/inicio"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,15 +47,16 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginEnd="24dp"
-        android:background="#E8EEF3"
+        android:clickable="true"
+        android:contentDescription="@string/abrir_perfil"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
         android:scaleType="centerCrop"
         android:src="@drawable/img_avatar"
         app:layout_constraintBottom_toBottomOf="@id/tv_title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_title"
-        app:shapeAppearanceOverlay="@style/CircleImageView"
-        app:strokeColor="@android:color/white"
-        app:strokeWidth="2dp" />
+        app:shapeAppearanceOverlay="@style/CircleImageView" />
 
     <TextView
         android:id="@+id/tv_greeting"
@@ -64,7 +65,7 @@
         android:layout_marginTop="50dp"
         android:alpha="0.75"
         android:fontFamily="@font/jua"
-        android:text="Hola, Amanda!"
+        android:text="@string/hola_amanda"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@id/tv_title"
@@ -76,7 +77,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/jua"
-        android:text="Balance Total"
+        android:text="@string/balance_total"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@id/tv_title"
@@ -88,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/jua"
-        android:text="$124.57"
+        android:text="@string/balance_actual"
         android:textColor="@android:color/white"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -100,7 +101,7 @@
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_marginEnd="28dp"
-        android:contentDescription="Notificaciones"
+        android:contentDescription="@string/notificaciones"
 
         app:layout_constraintBottom_toBottomOf="@id/tv_balance"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,7 +124,7 @@
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="24dp"
-        android:text="Enviar Dinero"
+        android:text="@string/enviar_dinero"
         android:textColor="@android:color/black"
         android:textSize="15sp"
         android:textStyle="bold"
@@ -144,7 +145,7 @@
         android:layout_height="56dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="20dp"
-        android:text="Ingresar Dinero"
+        android:text="@string/ingresar_dinero"
         android:textColor="@android:color/white"
         android:textSize="14sp"
         app:backgroundTint="@color/action_blue"
@@ -167,7 +168,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:fontFamily="@font/jua"
-        android:text="Ultimas transacciones"
+        android:text="@string/ultimas_transacciones"
         android:textColor="#1A1A1A"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -178,7 +179,7 @@
         android:id="@+id/iv_empty"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:contentDescription="Sin transacciones"
+        android:contentDescription="@string/sin_transacciones"
         android:src="@drawable/empty_list"
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@id/tv_empty"
@@ -193,7 +194,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/jua"
-        android:text="No hay transacciones registradas!"
+        android:text="@string/no_hay_transacciones_registradas"
         android:textColor="#9AA3AD"
         android:textSize="12sp"
         android:visibility="gone"
@@ -249,8 +250,8 @@
                         android:padding="4dp">
 
                         <ImageView
-                            android:layout_width="11dp"
-                            android:layout_height="11dp"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
                             android:src="@drawable/img_send"
                             app:tint="@color/badge_yellow" />
 
@@ -269,7 +270,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/jua"
-                        android:text="Yara Khalil"
+                        android:text="@string/yara_khalil"
                         android:textColor="#1A1A1A"
                         android:textSize="14sp" />
 
@@ -278,7 +279,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/jua"
-                        android:text="Oct 14, 10:24 AM"
+                        android:text="@string/fecha_transaccion_yara"
                         android:textColor="#9AA3AD"
                         android:textSize="12sp" />
 
@@ -288,7 +289,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jua"
-                    android:text="-$15.00"
+                    android:text="@string/monto_transaccion_yara"
                     android:textColor="#111111"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -321,8 +322,8 @@
                         android:padding="4dp">
 
                         <ImageView
-                            android:layout_width="11dp"
-                            android:layout_height="11dp"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
                             android:src="@drawable/img_receiver"
                             app:tint="@color/action_blue" />
 
@@ -341,7 +342,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/jua"
-                        android:text="Sara Ibrahim"
+                        android:text="@string/sara_ibrahim"
                         android:textColor="#1A1A1A"
                         android:textSize="14sp" />
 
@@ -350,7 +351,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/jua"
-                        android:text="Oct 12, 02:13 PM"
+                        android:text="@string/fecha_transaccion_sara"
                         android:textColor="#9AA3AD"
                         android:textSize="12sp" />
 
@@ -360,7 +361,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jua"
-                    android:text="+$20.50"
+                    android:text="@string/monto_transaccion_sara"
                     android:textColor="#111111"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -393,8 +394,8 @@
                         android:padding="4dp">
 
                         <ImageView
-                            android:layout_width="11dp"
-                            android:layout_height="11dp"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
                             android:src="@drawable/img_receiver"
                             app:tint="@color/action_blue" />
 
@@ -413,7 +414,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/jua"
-                        android:text="Ahmad Ibrahim"
+                        android:text="@string/ahmad_ibrahim"
                         android:textColor="#1A1A1A"
                         android:textSize="14sp" />
 
@@ -422,7 +423,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/jua"
-                        android:text="Oct 11, 01:19 AM"
+                        android:text="@string/fecha_transaccion_ahmad"
                         android:textColor="#9AA3AD"
                         android:textSize="12sp" />
 
@@ -432,7 +433,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jua"
-                    android:text="+$12.40"
+                    android:text="@string/monto_transaccion_ahmad"
                     android:textColor="#111111"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -465,8 +466,8 @@
                         android:padding="4dp">
 
                         <ImageView
-                            android:layout_width="11dp"
-                            android:layout_height="11dp"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
                             android:src="@drawable/img_send"
                             app:tint="@color/badge_yellow" />
 
@@ -485,7 +486,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/jua"
-                        android:text="Reem Khaled"
+                        android:text="@string/reem_khaled"
                         android:textColor="#1A1A1A"
                         android:textSize="14sp" />
 
@@ -494,7 +495,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/jua"
-                        android:text="Oct 07, 09:10 PM"
+                        android:text="@string/fecha_transaccion_reem"
                         android:textColor="#9AA3AD"
                         android:textSize="12sp" />
 
@@ -504,7 +505,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jua"
-                    android:text="-$21.30"
+                    android:text="@string/monto_transaccion_reem"
                     android:textColor="#111111"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -538,8 +539,8 @@
                         android:padding="4dp">
 
                         <ImageView
-                            android:layout_width="11dp"
-                            android:layout_height="11dp"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
                             android:src="@drawable/img_receiver"
                             app:tint="@color/action_blue" />
 
@@ -558,7 +559,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/jua"
-                        android:text="Hiba Saleh"
+                        android:text="@string/hiba_saleh"
                         android:textColor="#1A1A1A"
                         android:textSize="14sp" />
 
@@ -567,7 +568,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:fontFamily="@font/jua"
-                        android:text="Oct 04, 05:45 AM"
+                        android:text="@string/fecha_transaccion_hiba"
                         android:textColor="#9AA3AD"
                         android:textSize="12sp" />
 
@@ -577,7 +578,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jua"
-                    android:text="+$09.00"
+                    android:text="@string/monto_transaccion_hiba"
                     android:textColor="#111111"
                     android:textSize="16sp"
                     android:textStyle="bold" />

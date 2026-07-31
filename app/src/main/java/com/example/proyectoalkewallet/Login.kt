@@ -15,9 +15,14 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         val actionLogin = findViewById<View>(R.id.btnLogin)
+        val actionRegister = findViewById<View>(R.id.tvRegister)
 
         actionLogin.setOnClickListener {
             startActivity(Intent(this, Home::class.java))
+        }
+
+        actionRegister.setOnClickListener {
+            startActivity(Intent(this, Singup::class.java))
         }
     }
 

@@ -8,7 +8,7 @@
     android:background="@drawable/backgraund_login_register"
     tools:context=".Singup">
 
-    <!-- TÍTULO -->
+
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
@@ -16,14 +16,13 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="90dp"
         android:fontFamily="@font/jua"
-        android:text="Registrarse y a\nempezar a transferir"
+        android:text="@string/registrarse_y_a_empezar_a_transferir"
         android:textColor="#1A1A1A"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- CAMPO: NOMBRE -->
     <TextView
         android:id="@+id/tvLabelNombre"
         android:layout_width="wrap_content"
@@ -31,7 +30,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="60dp"
         android:fontFamily="@font/jua"
-        android:text="Nombre"
+        android:text="@string/nombre"
         android:textColor="#1A1A1A"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -63,14 +62,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
-            android:hint="Ingresar nombre"
+            android:hint="@string/ingresar_nombre"
             android:inputType="textPersonName"
             android:paddingVertical="14dp"
             android:textColorHint="#B0B0B0"
             android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- CAMPO: APELLIDO -->
     <TextView
         android:id="@+id/tvLabelApellido"
         android:layout_width="wrap_content"
@@ -78,7 +76,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/jua"
-        android:text="Apellido"
+        android:text="@string/apellido"
         android:textColor="#1A1A1A"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -110,14 +108,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
-            android:hint="Ingresar apellido"
+            android:hint="@string/ingresar_apellido"
             android:inputType="textPersonName"
             android:paddingVertical="14dp"
             android:textColorHint="#B0B0B0"
             android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- CAMPO: EMAIL -->
     <TextView
         android:id="@+id/tvLabelEmail"
         android:layout_width="wrap_content"
@@ -125,7 +122,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/jua"
-        android:text="Email"
+        android:text="@string/email"
         android:textColor="#000000"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -157,14 +154,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
-            android:hint="Ingresar Email"
+            android:hint="@string/ingresar_email"
             android:inputType="textEmailAddress"
             android:paddingVertical="14dp"
             android:textColorHint="#B0B0B0"
             android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- CAMPO: CONTRASEÑA -->
     <TextView
         android:id="@+id/tvLabelPassword"
         android:layout_width="wrap_content"
@@ -172,7 +168,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/jua"
-        android:text="Contraseña"
+        android:text="@string/contraseña"
         android:textColor="#000000"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -195,25 +191,24 @@
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="1.5dp"
         app:hintEnabled="false"
-        app:passwordToggleEnabled="true"
-        app:passwordToggleTint="#B0B0B0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvLabelPassword">
+        app:layout_constraintTop_toBottomOf="@id/tvLabelPassword"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#B0B0B0">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
-            android:hint="Ingresar contraseña"
+            android:hint="@string/ingresar_contraseña"
             android:inputType="textPassword"
             android:paddingVertical="14dp"
             android:textColorHint="#B0B0B0"
             android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- CAMPO: REINGRESAR CONTRASEÑA -->
     <TextView
         android:id="@+id/tvLabelRepeatPassword"
         android:layout_width="wrap_content"
@@ -221,7 +216,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/jua"
-        android:text="Reingresar contraseña"
+        android:text="@string/reingresar_contraseña"
         android:textColor="#000000"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -244,25 +239,24 @@
         app:boxStrokeWidth="1dp"
         app:boxStrokeWidthFocused="1.5dp"
         app:hintEnabled="false"
-        app:passwordToggleEnabled="true"
-        app:passwordToggleTint="#B0B0B0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvLabelRepeatPassword">
+        app:layout_constraintTop_toBottomOf="@id/tvLabelRepeatPassword"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="#B0B0B0">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etRepeatPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/jua"
-            android:hint="Reingresar contraseña"
+            android:hint="@string/reingresar_contraseña"
             android:inputType="textPassword"
             android:paddingVertical="14dp"
             android:textColorHint="#B0B0B0"
             android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- BOTÓN REGISTRARSE -->
     <Button
         android:id="@+id/btn_register"
         android:layout_width="match_parent"
@@ -271,14 +265,13 @@
         android:layout_marginBottom="70dp"
         android:backgroundTint="#1A87DD"
         android:fontFamily="@font/jua"
-        android:text="Crear cuenta"
+        android:text="@string/crear_cuenta"
         android:textSize="14sp"
         app:cornerRadius="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- TEXTO IR AL LOGIN -->
     <TextView
         android:id="@+id/tv_login"
         android:layout_width="wrap_content"
@@ -287,7 +280,7 @@
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/jua"
         android:padding="8dp"
-        android:text="Ya tienes una cuenta??"
+        android:text="@string/ya_tienes_una_cuenta"
         android:textColor="#1A87DD"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
