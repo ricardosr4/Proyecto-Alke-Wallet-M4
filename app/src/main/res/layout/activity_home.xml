@@ -8,7 +8,6 @@
     android:background="@android:color/white"
     tools:context=".Home">
 
-    <!-- ===================== CABECERA ===================== -->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_header"
@@ -102,7 +101,6 @@
         android:layout_height="28dp"
         android:layout_marginEnd="28dp"
         android:contentDescription="@string/notificaciones"
-
         app:layout_constraintBottom_toBottomOf="@id/tv_balance"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_balance"
@@ -116,7 +114,6 @@
         app:layout_constraintEnd_toEndOf="@id/iv_notifications"
         app:layout_constraintTop_toTopOf="@id/iv_notifications" />
 
-    <!-- ===================== BOTONES ===================== -->
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_send"
@@ -159,7 +156,6 @@
         app:layout_constraintStart_toEndOf="@id/btn_send"
         app:layout_constraintTop_toTopOf="@id/btn_send" />
 
-    <!-- ================= TRANSACCIONES ================= -->
 
     <TextView
         android:id="@+id/tv_transactions_title"
@@ -181,7 +177,7 @@
         android:layout_height="100dp"
         android:contentDescription="@string/sin_transacciones"
         android:src="@drawable/empty_list"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@id/tv_empty"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -197,7 +193,7 @@
         android:text="@string/no_hay_transacciones_registradas"
         android:textColor="#9AA3AD"
         android:textSize="12sp"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -211,7 +207,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:fillViewport="false"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/tv_transactions_title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -223,7 +219,7 @@
             android:orientation="vertical"
             android:paddingBottom="24dp">
 
-            <!-- Transaccion enviada -->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -512,7 +508,6 @@
 
             </LinearLayout>
 
-            <!-- Transaccion recibida -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
