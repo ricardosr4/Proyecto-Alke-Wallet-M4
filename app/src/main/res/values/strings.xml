@@ -65,14 +65,14 @@
     <string name="inicial_yara">Y</string>
     <string name="correo_yara">yara_khalil@gmail.com</string>
     <string name="cantidad_a_transferir">Cantidad a transferir</string>
-    <string name="monto_a_transferir">12.50</string>
+    <string name="monto_a_transferir">20.000</string>
     <string name="notas_de_transferencia">Notas de transferencia</string>
     <string name="agregar_notas_de_transferencia_opcional">Agregar notas de transferencia(opcional)</string>
 
     <!-- Request Money -->
     <string name="correo_reem">reem_1993@gmail.com</string>
     <string name="cantidad_a_ingresar">Cantidad a ingresar</string>
-    <string name="monto_a_ingresar">20.00</string>
+    <string name="monto_a_ingresar">20.000</string>
 
     <!-- Profile -->
     <string name="mi_perfil">Mi perfil</string>

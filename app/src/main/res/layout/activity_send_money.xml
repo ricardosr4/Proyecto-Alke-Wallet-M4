@@ -148,7 +148,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="@font/jua"
-                    android:hint="20.000"
+                    android:hint="@string/monto_a_transferir"
                     android:inputType="numberDecimal"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp"
