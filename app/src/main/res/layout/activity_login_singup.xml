@@ -14,6 +14,7 @@
         android:importantForAccessibility="no"
         android:scaleType="fitXY"
         android:src="@drawable/backgraund_login_singup"
+        android:translationY="-65dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
