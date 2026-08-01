@@ -8,7 +8,7 @@
     <string name="logo">logo</string>
     <string name="el_lugar_mas_seguro_para_tu_dinero">El lugar más seguro para tu dinero</string>
     <string name="crear_cuenta_nueva">Crear cuenta nueva</string>
-    <string name="ya_tienes_cuenta">¿Ya tienes cuenta?</string>
+    <string name="ya_tienes_cuenta">Ya tienes cuenta?</string>
 
     <!-- Login -->
     <string name="logea_y_empieza_a_transferir">Logea y empieza a\ntranferir!</string>

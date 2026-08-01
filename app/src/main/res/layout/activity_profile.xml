@@ -62,7 +62,7 @@
             android:layout_gravity="center"
             android:contentDescription="@string/foto_de_amanda"
             android:scaleType="centerCrop"
-            android:src="@drawable/img_avatar"
+            android:src="@drawable/img_avatar_profile"
             app:shapeAppearanceOverlay="@style/CircleImageView" />
 
     </com.google.android.material.card.MaterialCardView>
