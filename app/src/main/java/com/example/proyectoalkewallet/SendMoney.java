@@ -15,7 +15,8 @@ public class SendMoney extends AppCompatActivity {
         setContentView(R.layout.activity_send_money);
 
         findViewById(R.id.iv_back).setOnClickListener(view -> {
-            startActivity(new Intent(this, Home.class));
+            Intent intent = new Intent(this, Home.class);
+            startActivity(intent);
             finish();
         });
 

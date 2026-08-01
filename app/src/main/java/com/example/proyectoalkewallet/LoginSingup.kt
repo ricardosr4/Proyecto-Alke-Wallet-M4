@@ -16,11 +16,13 @@ class LoginSingup : AppCompatActivity() {
         val tvActionLogin = findViewById<View>(R.id.tv_action_login)
 
         btnActionSignup.setOnClickListener {
-            startActivity(Intent(this, Singup::class.java))
+            val intent = Intent(this, Singup::class.java)
+            startActivity(intent)
         }
 
         tvActionLogin.setOnClickListener {
-            startActivity(Intent(this, Login::class.java))
+            val intent = Intent(this, Login::class.java)
+            startActivity(intent)
         }
     }
 }

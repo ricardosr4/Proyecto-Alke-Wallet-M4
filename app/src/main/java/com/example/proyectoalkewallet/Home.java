@@ -15,15 +15,18 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         findViewById(R.id.btn_send).setOnClickListener(view -> {
-            startActivity(new Intent(this, SendMoney.class));
+            Intent intent = new Intent(this, SendMoney.class);
+            startActivity(intent);
         });
 
         findViewById(R.id.btn_receive).setOnClickListener(view -> {
-            startActivity(new Intent(this, RequestMoney.class));
+            Intent intent = new Intent(this, RequestMoney.class);
+            startActivity(intent);
         });
 
         findViewById(R.id.iv_avatar).setOnClickListener(view -> {
-            startActivity(new Intent(this, Profile.class));
+            Intent intent = new Intent(this, Profile.class);
+            startActivity(intent);
         });
 
     }

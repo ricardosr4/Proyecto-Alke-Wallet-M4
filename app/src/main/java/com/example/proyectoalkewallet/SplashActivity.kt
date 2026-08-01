@@ -24,7 +24,8 @@ class SplashActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.main).doOnPreDraw {
             Handler(Looper.getMainLooper()).postDelayed({
-                startActivity(Intent(this, LoginSingup::class.java))
+                val intent = Intent(this, LoginSingup::class.java)
+                startActivity(intent)
                 finish()
             }, SPLASH_DURATION_MS)
         }

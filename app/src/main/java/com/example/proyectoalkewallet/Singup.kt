@@ -23,11 +23,13 @@ class Singup : AppCompatActivity() {
         val loginText = findViewById<View>(R.id.tv_login)
 
         registerButton.setOnClickListener {
-            startActivity(Intent(this, Home::class.java))
+            val intent = Intent(this, Home::class.java)
+            startActivity(intent)
         }
 
         loginText.setOnClickListener {
-            startActivity(Intent(this, Login::class.java))
+            val intent = Intent(this, Login::class.java)
+            startActivity(intent)
         }
     }
 }
