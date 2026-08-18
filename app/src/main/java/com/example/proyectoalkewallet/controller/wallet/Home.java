@@ -1,10 +1,14 @@
-package com.example.proyectoalkewallet;
+package com.example.proyectoalkewallet.controller.wallet;
 
 import android.content.Intent;
 import android.os.Bundle;
-
+import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.proyectoalkewallet.R;
+import com.example.proyectoalkewallet.controller.profile.Profile;
+import com.example.proyectoalkewallet.model.Cuenta;
+import java.util.Locale;
 
 public class Home extends AppCompatActivity {
 
@@ -29,5 +33,18 @@ public class Home extends AppCompatActivity {
             startActivity(intent);
         });
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        TextView balance = findViewById(R.id.tv_balance);
+        String saldo = String.format(
+                Locale.US,
+                getString(R.string.formato_saldo),
+                Cuenta.obtenerSaldo()
+        );
+        balance.setText(saldo);
     }
 }

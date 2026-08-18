@@ -1,4 +1,4 @@
-package com.example.proyectoalkewallet
+package com.example.proyectoalkewallet.controller.auth
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.proyectoalkewallet.R
+import com.example.proyectoalkewallet.controller.wallet.Home
 
 class Singup : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

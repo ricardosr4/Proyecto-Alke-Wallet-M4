@@ -38,8 +38,10 @@
     <string name="hola_amanda">Hola, Amanda!</string>
     <string name="balance_total">Balance Total</string>
     <string name="balance_actual">$124.57</string>
+    <string name="formato_saldo">$%.2f</string>
     <string name="notificaciones">Notificaciones</string>
     <string name="enviar_dinero">Enviar Dinero</string>
+    <string name="retirar_dinero">Retirar Dinero</string>
     <string name="ingresar_dinero">Ingresar Dinero</string>
     <string name="ultimas_transacciones">Ultimas transacciones</string>
     <string name="sin_transacciones">Sin transacciones</string>
@@ -66,6 +68,8 @@
     <string name="correo_yara">yara_khalil@gmail.com</string>
     <string name="cantidad_a_transferir">Cantidad a transferir</string>
     <string name="monto_a_transferir">20.000</string>
+    <string name="cantidad_a_retirar">Cantidad a retirar</string>
+    <string name="monto_a_retirar">20.00</string>
     <string name="notas_de_transferencia">Notas de transferencia</string>
     <string name="agregar_notas_de_transferencia_opcional">Agregar notas de transferencia(opcional)</string>
 
@@ -73,6 +77,10 @@
     <string name="correo_reem">reem_1993@gmail.com</string>
     <string name="cantidad_a_ingresar">Cantidad a ingresar</string>
     <string name="monto_a_ingresar">20.000</string>
+    <string name="deposito_exitoso">Depósito realizado correctamente</string>
+    <string name="retiro_exitoso">Retiro realizado correctamente</string>
+    <string name="monto_invalido">Ingresa un monto válido</string>
+    <string name="saldo_insuficiente">Monto inválido o saldo insuficiente</string>
 
     <!-- Profile -->
     <string name="mi_perfil">Mi perfil</string>

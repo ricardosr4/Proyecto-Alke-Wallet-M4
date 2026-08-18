@@ -1,4 +1,4 @@
-package com.example.proyectoalkewallet
+package com.example.proyectoalkewallet.controller.auth
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -10,6 +10,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.core.view.doOnPreDraw
+import com.example.proyectoalkewallet.R
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {
