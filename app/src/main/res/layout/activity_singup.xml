@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgraund_login_register"
-    tools:context=".Singup">
+    tools:context=".controller.auth.Singup">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="0dp"

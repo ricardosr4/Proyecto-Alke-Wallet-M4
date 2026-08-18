@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".Home">
+    tools:context=".controller.wallet.Home">
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -121,7 +121,7 @@
         android:layout_height="56dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="24dp"
-        android:text="@string/enviar_dinero"
+        android:text="@string/retirar_dinero"
         android:textColor="@android:color/black"
         android:textSize="15sp"
         android:textStyle="bold"

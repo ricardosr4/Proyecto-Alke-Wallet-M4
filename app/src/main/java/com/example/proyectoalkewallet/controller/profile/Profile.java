@@ -1,9 +1,9 @@
-package com.example.proyectoalkewallet;
+package com.example.proyectoalkewallet.controller.profile;
 
 import android.os.Bundle;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.proyectoalkewallet.R;
 
 public class Profile extends AppCompatActivity {
 
@@ -12,6 +12,5 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_profile);
-
     }
 }

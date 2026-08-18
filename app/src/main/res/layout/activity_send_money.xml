@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".SendMoney">
+    tools:context=".controller.wallet.SendMoney">
 
     <ImageView
         android:id="@+id/iv_back"
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/jua"
-        android:text="@string/enviar_dinero"
+        android:text="@string/retirar_dinero"
         android:textColor="#111111"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/iv_back"
@@ -117,7 +117,7 @@
                 android:layout_marginStart="22dp"
                 android:layout_marginTop="38dp"
                 android:fontFamily="@font/jua"
-                android:text="@string/cantidad_a_transferir"
+                android:text="@string/cantidad_a_retirar"
                 android:textColor="#1A1A1A"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -149,7 +149,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:fontFamily="@font/jua"
-                    android:hint="@string/monto_a_transferir"
+                    android:hint="@string/monto_a_retirar"
                     android:inputType="numberDecimal"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp"
@@ -223,7 +223,7 @@
         android:layout_marginEnd="22dp"
         android:layout_marginBottom="60dp"
         android:fontFamily="@font/jua"
-        android:text="@string/enviar_dinero"
+        android:text="@string/retirar_dinero"
         android:textAllCaps="false"
         android:textColor="@android:color/black"
         android:textSize="14sp"
