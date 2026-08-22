@@ -1,4 +1,4 @@
-package com.example.proyectoalkewallet.controller.auth
+package com.example.proyectoalkewallet.view.auth
 
 import android.annotation.SuppressLint
 import android.content.Intent

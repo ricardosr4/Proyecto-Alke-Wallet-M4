@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgraund_login_register"
-    tools:context=".controller.auth.Login">
+    tools:context=".view.auth.Login">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="0dp"
