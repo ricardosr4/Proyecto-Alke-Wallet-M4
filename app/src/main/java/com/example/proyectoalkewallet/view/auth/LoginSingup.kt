@@ -1,4 +1,4 @@
-package com.example.proyectoalkewallet.controller.auth
+package com.example.proyectoalkewallet.view.auth
 
 import android.content.Intent
 import android.os.Bundle

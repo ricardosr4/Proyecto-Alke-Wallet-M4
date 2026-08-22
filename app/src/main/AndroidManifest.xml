@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoAlkeWallet">
         <activity
-            android:name=".controller.auth.SplashActivity"
+            android:name=".view.auth.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.ProyectoAlkeWallet.Splash"
             android:windowSoftInputMode="adjustResize">
@@ -23,35 +23,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".controller.auth.LoginSingup"
+            android:name=".view.auth.LoginSingup"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".controller.MainActivity"
+            android:name=".view.MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".controller.auth.Singup"
+            android:name=".view.auth.Singup"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".controller.auth.Login"
+            android:name=".view.auth.Login"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".controller.wallet.Home"
+            android:name=".view.wallet.Home"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".controller.wallet.RequestMoney"
+            android:name=".view.wallet.RequestMoney"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".controller.wallet.SendMoney"
+            android:name=".view.wallet.SendMoney"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".controller.profile.Profile"
+            android:name=".view.profile.Profile"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

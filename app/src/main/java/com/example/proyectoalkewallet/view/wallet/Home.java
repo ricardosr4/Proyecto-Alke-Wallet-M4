@@ -1,4 +1,4 @@
-package com.example.proyectoalkewallet.controller.wallet;
+package com.example.proyectoalkewallet.view.wallet;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,11 +6,13 @@ import android.widget.TextView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.proyectoalkewallet.R;
-import com.example.proyectoalkewallet.controller.profile.Profile;
-import com.example.proyectoalkewallet.model.Cuenta;
+import com.example.proyectoalkewallet.controller.AccountController;
+import com.example.proyectoalkewallet.view.profile.Profile;
 import java.util.Locale;
 
 public class Home extends AppCompatActivity {
+
+    private final AccountController accountController = new AccountController();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,11 +42,11 @@ public class Home extends AppCompatActivity {
         super.onResume();
 
         TextView balance = findViewById(R.id.tv_balance);
-        String saldo = String.format(
+        String formattedBalance = String.format(
                 Locale.US,
                 getString(R.string.formato_saldo),
-                Cuenta.obtenerSaldo()
+                accountController.getBalance()
         );
-        balance.setText(saldo);
+        balance.setText(formattedBalance);
     }
 }

@@ -1,4 +1,4 @@
-package com.example.proyectoalkewallet.controller.profile;
+package com.example.proyectoalkewallet.view.profile;
 
 import android.os.Bundle;
 import androidx.activity.EdgeToEdge;

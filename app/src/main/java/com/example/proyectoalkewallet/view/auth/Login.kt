@@ -1,4 +1,4 @@
-package com.example.proyectoalkewallet.controller.auth
+package com.example.proyectoalkewallet.view.auth
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.proyectoalkewallet.R
-import com.example.proyectoalkewallet.controller.wallet.Home
+import com.example.proyectoalkewallet.view.wallet.Home
 
 class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
