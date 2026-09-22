@@ -38,7 +38,7 @@
     <string name="hola_amanda">Hola, Amanda!</string>
     <string name="balance_total">Balance Total</string>
     <string name="balance_actual">$124.57</string>
-    <string name="formato_saldo">$%.2f</string>
+    <string name="formato_saldo">$%,d</string>
     <string name="notificaciones">Notificaciones</string>
     <string name="enviar_dinero">Enviar Dinero</string>
     <string name="retirar_dinero">Retirar Dinero</string>
