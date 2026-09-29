@@ -2,26 +2,26 @@ package com.example.proyectoalkewallet.view.auth
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.example.proyectoalkewallet.R
+import com.example.proyectoalkewallet.databinding.ActivityLoginSingupBinding
 
 class LoginSingup : AppCompatActivity() {
+
+    private lateinit var binding: ActivityLoginSingupBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login_singup)
+        binding = ActivityLoginSingupBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val btnActionSignup = findViewById<View>(R.id.btn_action_signup)
-        val tvActionLogin = findViewById<View>(R.id.tv_action_login)
-
-        btnActionSignup.setOnClickListener {
+        binding.btnActionSignup.setOnClickListener {
             val intent = Intent(this, Singup::class.java)
             startActivity(intent)
         }
 
-        tvActionLogin.setOnClickListener {
+        binding.tvActionLogin.setOnClickListener {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
