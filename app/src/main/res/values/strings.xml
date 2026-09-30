@@ -19,6 +19,10 @@
     <string name="olvidaste_tu_contraseña">Olvidaste tu contraseña?</string>
     <string name="login">Login</string>
     <string name="crear_una_nueva_cuenta">Crear una nueva cuenta</string>
+    <string name="campo_obligatorio">Campo obligatorio</string>
+    <string name="correo_invalido">Ingresa un correo válido</string>
+    <string name="usuario_no_encontrado">Este correo no existe en los usuarios del mock</string>
+    <string name="error_login">No fue posible iniciar sesión. Revisa tu conexión.</string>
 
     <!-- SingUp -->
     <string name="registrarse_y_a_empezar_a_transferir">Registrarse y a\nempezar a transferir</string>
@@ -31,11 +35,14 @@
     <string name="reingresar_contraseña">Reingresar contraseña</string>
     <string name="crear_cuenta">Crear cuenta</string>
     <string name="ya_tienes_una_cuenta">Ya tienes una cuenta??</string>
+    <string name="contrasenas_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="error_registro">No fue posible crear la cuenta. Revisa tu conexión.</string>
 
     <!-- Home -->
     <string name="inicio">Inicio</string>
     <string name="abrir_perfil">Abrir perfil</string>
     <string name="hola_amanda">Hola, Amanda!</string>
+    <string name="hola_usuario">Hola, %1$s!</string>
     <string name="balance_total">Balance Total</string>
     <string name="balance_actual">$124.57</string>
     <string name="formato_saldo">$%,d</string>
@@ -87,11 +94,11 @@
     <string name="editar_perfil">Editar perfil</string>
     <string name="foto_de_amanda">Foto de Amanda</string>
     <string name="amanda_alkemy">Amanda Alkemy</string>
+    <string name="correo_amanda">amanda@alkemy.cl</string>
+    <string name="nombre_completo">%1$s %2$s</string>
     <string name="mi_informacion">Mi Información</string>
     <string name="mis_tarjetas">Mis tarjetas</string>
     <string name="opciones">Opciones</string>
     <string name="centro_de_ayuda">Centro de ayuda</string>
-
-    <!-- Main -->
-    <string name="hello_world">Hello World!</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
 </resources>
